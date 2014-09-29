@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "hungry-cloner"
   gem.homepage = "http://github.com/tibbon/hungry-cloner"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Checks out all forks of a repo}
+  #gem.description = %Q{TODO: longer description of your gem}
   gem.email = "tibbon@gmail.com"
   gem.authors = ["David Fisher"]
   # dependencies defined in Gemfile
