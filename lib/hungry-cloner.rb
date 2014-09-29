@@ -1,12 +1,9 @@
-require 'octokit'
-require 'pry'
+base_repo = ARGV[0]
 
-user_name = `git config --global github.user`
-if user_name.empty?
-  abort("Configure your Github username with: git config --global github.user USERNAME")
+if base_repo.nil?
+  abort("Usage: hungry-cloner account\/repo")
 end
 
-base_repo = "ga-wdi-boston/wdi_1_miniproject_game"
 repo_name = base_repo.split('/')[1]
 pull_requests = Octokit.pull_requests base_repo
 `mkdir #{repo_name}`
