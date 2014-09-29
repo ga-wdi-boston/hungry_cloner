@@ -13,6 +13,7 @@ Gem::Specification.new do |s|
   s.authors = ["David Fisher"]
   s.date = "2014-09-29"
   s.email = "tibbon@gmail.com"
+  s.executables = ["hungry-cloner"]
   s.extra_rdoc_files = [
     "LICENSE.txt",
     "README.rdoc"
@@ -26,6 +27,8 @@ Gem::Specification.new do |s|
     "README.rdoc",
     "Rakefile",
     "VERSION",
+    "bin/hungry-cloner",
+    "hungry-cloner.gemspec",
     "lib/hungry-cloner.rb",
     "spec/hungry-cloner_spec.rb",
     "spec/spec_helper.rb"
